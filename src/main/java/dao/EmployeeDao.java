@@ -8,6 +8,9 @@ import entity.Employee;
 
 interface EmployeeDao {
 	
+	
+	//Employee Crud operations
+	
 	public boolean insert(Employee employee);
 	public boolean update(Employee employee);
 	public Map<Integer ,Employee> getAll();

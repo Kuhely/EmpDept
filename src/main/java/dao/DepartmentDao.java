@@ -11,5 +11,6 @@ interface DepartmentDao {
 	public Map<Integer ,Department> getAll();
 	public boolean delete(int deptId);
 	public Department findById(int deptId);
+	//
 
 }

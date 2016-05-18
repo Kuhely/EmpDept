@@ -141,10 +141,9 @@ public class EmployeeDaoTestCase {
 	
 	}
 
-	@Test
-	@Ignore
+
 	public void testDepartmentGetAllMethodTrue() {
-		
+		//
 		EmployeeInitiation();
 		
 		employeedaoimpl=new EmployeeDaoImpl();
